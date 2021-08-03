@@ -51,5 +51,5 @@ setup(
         "climate change",
     ],
     cmdclass=cmdclass,
-    packages=["globalwarmingpotentials"],
+    packages=["src/globalwarmingpotentials"],
 )
