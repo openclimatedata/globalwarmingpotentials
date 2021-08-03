@@ -56,5 +56,5 @@ setup(
     ],
     cmdclass=cmdclass,
     packages=PACKAGES,
-    package_dir=PACKAGE_DIR
+    package_dir=PACKAGE_DIR,
 )
