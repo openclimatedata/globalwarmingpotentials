@@ -10,7 +10,7 @@ See README.md and repository for details:
     https://github.com/openclimatedate/globalwarmingpotentials
 """
 
-from setuptools import setup
+from setuptools import find_packages, setup
 import os
 
 import versioneer
@@ -23,6 +23,10 @@ with open(os.path.join(path, "./README.md"), "r") as f:
     readme = f.read()
 
 cmdclass = versioneer.get_cmdclass()
+
+SOURCE_DIR = "src"
+PACKAGES = find_packages(SOURCE_DIR)
+PACKAGE_DIR = {"": SOURCE_DIR}
 
 setup(
     name="globalwarmingpotentials",
@@ -51,5 +55,6 @@ setup(
         "climate change",
     ],
     cmdclass=cmdclass,
-    packages=["src/globalwarmingpotentials"],
+    packages=PACKAGES,
+    package_dir=PACKAGE_DIR
 )
