@@ -1,3 +1,9 @@
+# Global warming potentials of greenhouse gases.
+# Sources:
+#   - https://ghgprotocol.org/calculation-tools
+#   - IPCC reports
+#`AR5CCFGWP100` are AR5 100 year GWPs with climate carbon cycle feedbacks
+# Repository: https://github.com/openclimatedata/globalwarmingpotentials
 Species,SARGWP100,AR4GWP100,AR5GWP100,AR5CCFGWP100
 CH4,21,25,28,34
 N2O,310,298,265,298
