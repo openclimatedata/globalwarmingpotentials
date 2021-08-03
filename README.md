@@ -10,7 +10,7 @@ IPCC reports:
 - Fourth Assessment Report (AR4)
 - Fifth Assessment Report (AR5)
 
-## Data Package
+## CSV file / Data Package
 
 [Frictionless](https://frictionlessdata.io/) data style
 
