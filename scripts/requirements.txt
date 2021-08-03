@@ -1,5 +1,3 @@
 black
 pandas
-pandas_datapackage_reader
-goodtables
 yapf

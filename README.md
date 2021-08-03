@@ -10,9 +10,7 @@ IPCC reports:
 - Fourth Assessment Report (AR4)
 - Fifth Assessment Report (AR5)
 
-## CSV file / Data Package
-
-[Frictionless](https://frictionlessdata.io/) data style
+## CSV file
 
 CSV file: [globalwarmingpotentials.csv](./globalwarmingpotentials.csv)
 
@@ -49,4 +47,4 @@ https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Va
 `AR5CCFGWP100` are AR5 100 year GWPs with climate carbon cycle feedbacks:
 https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf, Table 8.SM.16 and https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf , Table 8.7 (page 714).
 
-
+This project was based on the implementations in the [OpenSCM project](https://github.com/openscm/openscm-units/).

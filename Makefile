@@ -19,7 +19,4 @@ clean: clean-generated-files clean-venv
 tag:
 	./scripts/create_tag.sh
 
-validate:
-	./venv/bin/python scripts/validate.py
-
 .PHONY: clean clean-generated-files clean-venv tag publish-on-pypi publish-on-test-pypi test-pypi-install

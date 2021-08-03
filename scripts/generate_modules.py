@@ -5,14 +5,14 @@ listed in Data Package CSV file.
 
 import json
 import numpy as np
+import pandas as pd
 
 from pathlib import Path
-from pandas_datapackage_reader import read_datapackage
 from yapf.yapflib.yapf_api import FormatCode
 
 root = Path(__file__).parents[1]
 
-df = read_datapackage(root / "datapackage.json", "globalwarmingpotentials")
+df = pd.read_csv(root / "globalwarmingpotentials.csv", comment="#", index_col="Species")
 
 py_out = '''"""
 globalwarmingpotentials
