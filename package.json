@@ -17,6 +17,7 @@
     "global warming potentials"
   ],
   "author": "Robert Gieseke",
+  "type": "module",
   "license": "CC0",
   "bugs": {
     "url": "https://github.com/openclimatedata/globalwarmingpotentials/issues"
