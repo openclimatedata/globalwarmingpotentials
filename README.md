@@ -14,7 +14,7 @@ IPCC reports:
 
 [Frictionless](https://frictionlessdata.io/) data style
 
-CSV file: <globalwarmingpotentials.csv>
+CSV file: [globalwarmingpotentials.csv](./globalwarmingpotentials.csv)
 
 ## Python
 
