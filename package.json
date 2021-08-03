@@ -1,0 +1,25 @@
+{
+  "name": "globalwarmingpotentials",
+  "version": "0.1.0",
+  "description": "Global warming potentials of greenhouse gases from various IPCC reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openclimatedata/globalwarmingpotentials.git"
+  },
+  "keywords": [
+    "climate research",
+    "climate change",
+    "greenhouse gases",
+    "global warming potentials"
+  ],
+  "author": "Robert Gieseke",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/openclimatedata/globalwarmingpotentials/issues"
+  },
+  "homepage": "https://github.com/openclimatedata/globalwarmingpotentials#readme"
+}
