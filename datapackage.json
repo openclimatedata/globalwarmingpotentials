@@ -1,7 +1,7 @@
 {
   "name": "globalwarmingpotentials",
   "title": "Global warming potentials of greenhouse gases",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Global warming potentials of greenhouse gases from various IPCC reports",
   "repository": "git://github.com/openclimatedata/globalwarmingpotentials.git",
   "resources": [
