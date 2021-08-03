@@ -30,7 +30,7 @@ npm install globalwarmingpotentials
 
 ## Releasing
 
-Run
+Running
 ```
 make tag
 ```
