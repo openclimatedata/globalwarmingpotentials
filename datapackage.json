@@ -6,6 +6,7 @@
   "repository": "git://github.com/openclimatedata/globalwarmingpotentials.git",
   "resources": [
     {
+      "name": "globalwarmingpotentials",
       "path": "globalwarmingpotentials.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -29,8 +30,14 @@
           {
             "name": "AR5GWP100",
             "type": "number",
-            "description": "Fourth Assessment Report 100-year GWP"
+            "description": "Fifth Assessment Report 100-year GWP"
+          },
+          {
+            "name": "AR5CCFGWP100",
+            "type": "number",
+            "description": "Fifth Assessment Report 100-year GWP with climate carbon cycle feedbacks"
           }
+
         ]
       }
     }
