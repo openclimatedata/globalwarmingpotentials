@@ -1,4 +1,6 @@
 # Global Warming Potentials
+[![PyPI](https://img.shields.io/pypi/v/globalwarmingpotentials.svg)](https://pypi.org/project/globalwarmingpotentials/)
+[![npm](https://img.shields.io/npm/v/globalwarmingpotentials.svg)](https://www.npmjs.com/package/globalwarmingpotentials)
 
 Global warming potentials of greenhouse gases.
 
