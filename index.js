@@ -1,6 +1,6 @@
 // Global Warming potentials
 
-export const SARGWP100 = {
+exports.SARGWP100 = {
   "CH4":21.0,
   "N2O":310.0,
   "CFC11":3800.0,
@@ -92,7 +92,7 @@ export const SARGWP100 = {
   "Halon1201":null
 }
 
-export const AR4GWP100 = {
+exports.AR4GWP100 = {
   "CH4":25.0,
   "N2O":298.0,
   "CFC11":4750.0,
@@ -184,7 +184,7 @@ export const AR4GWP100 = {
   "Halon1201":null
 }
 
-export const AR5GWP100 = {
+exports.AR5GWP100 = {
   "CH4":28.0,
   "N2O":265.0,
   "CFC11":4660.0,
@@ -276,7 +276,7 @@ export const AR5GWP100 = {
   "Halon1201":376.0
 }
 
-export const AR5CCFGWP100 = {
+exports.AR5CCFGWP100 = {
   "CH4":34.0,
   "N2O":298.0,
   "CFC11":5352.0,
