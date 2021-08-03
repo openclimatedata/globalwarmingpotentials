@@ -28,6 +28,20 @@ pip install globalwarmingpotentials
 npm install globalwarmingpotentials
 ```
 
+## Releasing
+
+Run
+```
+make tag
+```
+
+and pushing with
+```
+git push origin main --tags
+```
+
+will create new releases on PyPI and NPM.
+
 ## Sources
 
 https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf
