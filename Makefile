@@ -1,4 +1,4 @@
-index.js src/globalwarmingpotentials/__init__.py: scripts/generate_modules.py datapackage.json globalwarmingpotentials.csv venv
+index.js src/globalwarmingpotentials/__init__.py: scripts/generate_modules.py globalwarmingpotentials.csv venv
 	@./venv/bin/python $<
 	@./venv/bin/black src/globalwarmingpotentials/*.py
 
