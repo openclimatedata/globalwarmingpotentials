@@ -19,7 +19,7 @@ path = os.path.abspath(os.path.dirname(__file__))
 
 description = "Global warming potentials of greenhouse gases from various IPCC reports"
 
-with open(os.path.join(path, "../README.md"), "r") as f:
+with open(os.path.join(path, "./README.md"), "r") as f:
     readme = f.read()
 
 cmdclass = versioneer.get_cmdclass()

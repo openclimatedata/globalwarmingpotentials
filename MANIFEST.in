@@ -1,0 +1,3 @@
+include README.md
+include src/versioneer.py
+include src/globalwarmingpotentials/_version.py
