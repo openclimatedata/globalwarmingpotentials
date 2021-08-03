@@ -1,6 +1,6 @@
 {
   "name": "globalwarmingpotentials",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Global warming potentials of greenhouse gases from various IPCC reports",
   "main": "index.js",
   "scripts": {
