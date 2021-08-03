@@ -376,3 +376,6 @@ AR5CCFGWP100 = {
     "CH3Cl": 15.0,
     "Halon1201": 454.0,
 }
+
+from . import _version
+__version__ = _version.get_versions()['version']
