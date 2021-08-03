@@ -23,7 +23,4 @@ else
   git add datapackage.json
   git commit -m "Update version in datapackage.json"
   npm version "$version" -m "Update version to %s"
-  git add package.json
-  git commit -m "Update version in package.json"
-  git tag v$version
 fi
