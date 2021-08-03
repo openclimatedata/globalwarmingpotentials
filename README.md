@@ -10,6 +10,24 @@ IPCC reports:
 - Fourth Assessment Report (AR4)
 - Fifth Assessment Report (AR5)
 
+## Data Package
+
+[Frictionless](https://frictionlessdata.io/) data style
+
+CSV file: <globalwarmingpotentials.csv>
+
+## Python
+
+```
+pip install globalwarmingpotentials
+```
+
+## Node
+
+```
+npm install globalwarmingpotentials
+```
+
 ## Sources
 
 https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf
