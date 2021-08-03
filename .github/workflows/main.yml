@@ -31,7 +31,7 @@ jobs:
     - name: Test import
       run: |
         python -c 'import globalwarmingpotentials; print(f"globalwarmingpotentials {globalwarmingpotentials.__version__}")'
-s
+
   deploy-pypi:
     needs: test
     if: startsWith(github.event.ref, 'refs/tags/v')
