@@ -10,7 +10,8 @@ __version__ = get_versions()["version"]
 del get_versions
 
 
-def as_data_frame():
+def as_frame():
+    """Return Global Warming Potentials as a Pandas DataFrame."""
     try:
         import pandas as pd
     except ImportError:
@@ -30,7 +31,7 @@ def as_data_frame():
     )
 
 
-globalwarmingpotentials = {
+data = {
     "SARGWP100": {
         "CH4": 21.0,
         "N2O": 310.0,
