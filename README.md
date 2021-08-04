@@ -21,7 +21,8 @@ pip install globalwarmingpotentials
 ```
 
 Example usage:
-```
+
+```python
 import globalwarmingpotentials as gwp
 
 print(gwp.data["AR5GWP100"]["CH4"])  # prints '28'
