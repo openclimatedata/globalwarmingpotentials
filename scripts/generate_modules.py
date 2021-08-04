@@ -21,13 +21,38 @@ globalwarmingpotentials
 """
 
 from ._version import get_versions
-__version__ = get_versions()['version']
+
+__version__ = get_versions()["version"]
 del get_versions
 
+
+def as_data_frame():
+    try:
+        import pandas as pd
+    except ImportError:
+        raise ImportError(
+            "pandas is required for reading global warming "
+            "potentials as a Data Frame."
+        ) from None
+
+    import importlib.resources as pkg_resources
+
+    return pd.read_csv(
+        pkg_resources.open_text(
+            "globalwarmingpotentials", "globalwarmingpotentials.csv"
+        ),
+        index_col=0,
+        comment="#",
+    )
+
+
+globalwarmingpotentials = {
 '''
 
 for column in df.columns:
-    py_out += f"{column} = {df[column].replace({np.nan: None}).to_dict()}\n\n"
+    py_out += f"'{column}': {df[column].dropna().to_dict()},\n\n"
+
+py_out += "}\n"
 
 with open(str(root / "src/globalwarmingpotentials/__init__.py"), "w") as f:
     f.write(FormatCode(py_out)[0])

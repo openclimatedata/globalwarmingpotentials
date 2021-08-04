@@ -27,6 +27,7 @@ cmdclass = versioneer.get_cmdclass()
 SOURCE_DIR = "src"
 PACKAGES = find_packages(SOURCE_DIR)
 PACKAGE_DIR = {"": SOURCE_DIR}
+PACKAGE_DATA = {"globalwarmingpotentials": ["globalwarmingpotentials.csv"]}
 
 setup(
     name="globalwarmingpotentials",
@@ -57,4 +58,5 @@ setup(
     cmdclass=cmdclass,
     packages=PACKAGES,
     package_dir=PACKAGE_DIR,
+    package_data=PACKAGE_DATA,
 )
