@@ -20,6 +20,15 @@ CSV file: [globalwarmingpotentials.csv](./globalwarmingpotentials.csv)
 pip install globalwarmingpotentials
 ```
 
+Example usage:
+```
+import globalwarmingpotentials as gwp
+
+print(gwp.data["AR5GWP100"]["CH4"])  # prints '28'
+
+df = gwp.as_frame()  # Returns a Pandas DataFrame
+```
+
 ## Node
 
 ```
