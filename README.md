@@ -12,17 +12,17 @@ Global warming potentials of greenhouse gases.
 
 ### 100-year-GWP from IPCC reports
 
-- Second Assessment Report (SAR) - **SARGWP100**  
+- Second Assessment Report (SAR) - **SARGWP100**
   [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
-- Fourth Assessment Report (AR4) - **AR4GWP100**  
+- Fourth Assessment Report (AR4) - **AR4GWP100**
   [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
-- Fifth Assessment Report (AR5) - **AR5GWP100**  
+- Fifth Assessment Report (AR5) - **AR5GWP100**
   [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
 
 ### 100-year-GWP including climate carbon cycle feedbacks
 
-- Fifth Assessment Report (AR5) - **AR5CCFGWP100**  
-  Data souces:   
+- Fifth Assessment Report (AR5) - **AR5CCFGWP100**
+  Data souces:
   - [Table 8.SM.16](https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf)
   - [Table 8.7](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf)
     (page 714)
