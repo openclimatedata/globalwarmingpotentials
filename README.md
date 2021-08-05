@@ -8,11 +8,24 @@ Read the [LICENSE](LICENSE).
 
 Global warming potentials of greenhouse gases.
 
-IPCC reports:
+## GWP metrics included in this repository
 
-- Second assessment Report (SAR)
-- Fourth Assessment Report (AR4)
-- Fifth Assessment Report (AR5)
+### 100-year-GWP from IPCC reports
+
+- Second Assessment Report (SAR) - **SARGWP100**  
+  [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
+- Fourth Assessment Report (AR4) - **AR4GWP100**  
+  [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
+- Fifth Assessment Report (AR5) - **AR5GWP100**  
+  [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
+
+### 100-year-GWP including climate carbon cycle feedbacks
+
+- Fifth Assessment Report (AR5) - **AR5CCFGWP100**  
+  Data souces:   
+  - [Table 8.SM.16](https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf)
+  - [Table 8.7](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf)
+    (page 714)
 
 ## CSV file
 
@@ -53,12 +66,3 @@ git push origin main --tags
 ```
 
 will create new releases on PyPI and NPM.
-
-## Sources
-
-https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf
-
-`AR5CCFGWP100` are AR5 100 year GWPs with climate carbon cycle feedbacks:
-https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf, Table 8.SM.16 and https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf , Table 8.7 (page 714).
-
-This project was based on the implementations in the [OpenSCM project](https://github.com/openscm/openscm-units/).
