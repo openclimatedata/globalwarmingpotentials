@@ -62,3 +62,9 @@ git push origin main --tags
 ```
 
 will create new releases on PyPI and NPM.
+
+## Acknowledgement
+
+This project is based on work by [@lewisjared](https://github.com/lewisjared)
+[@swillner](https://github.com/swillner) and [@znicholls](https://github.com/znicholls)
+in the [OpenSCM project](https://github.com/openscm/openscm-units/).
