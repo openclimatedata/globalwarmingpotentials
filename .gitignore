@@ -1,6 +1,10 @@
+# Python
 venv
 __pycache__
 *.egg-info/
 dist
 build
 *.pyc
+
+# Editors
+.idea/*
