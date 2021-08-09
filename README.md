@@ -19,7 +19,7 @@ Global warming potentials of greenhouse gases.
 - Fifth Assessment Report (AR5) - **AR5GWP100**
   [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
 - Sixth Assessment Report (AR6) - **AR6GWP100**
-  [Supplementary Table 7.SM.7](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
+  [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
 
 ### 100-year-GWP including climate carbon cycle feedbacks
 
