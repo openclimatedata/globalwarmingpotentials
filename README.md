@@ -21,6 +21,12 @@ Global warming potentials of greenhouse gases.
 - Sixth Assessment Report (AR6) - **AR6GWP100**
   [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
 
+### 20-year-GWP from IPCC reports
+
+- Sixth Assessment Report (AR6) - **AR6GWP20**
+  [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
+
+
 ### 100-year-GWP including climate carbon cycle feedbacks
 
 - Fifth Assessment Report (AR5) - **AR5CCFGWP100**
