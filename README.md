@@ -28,6 +28,18 @@ Global warming potentials of greenhouse gases.
   [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
   [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
 
+### 500-year-GWP from IPCC reports
+
+- Sixth Assessment Report (AR6) - **AR6GWP20**
+  [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
+  [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
+
+### 100-year-GTP from IPCC reports
+
+- Sixth Assessment Report (AR6) - **AR6GWP20**
+  [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
+  [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
+
 ### 100-year-GWP including climate carbon cycle feedbacks
 
 - Fifth Assessment Report (AR5) - **AR5CCFGWP100**
