@@ -4,7 +4,7 @@ This work is released under a **Creative Commons CC0 Public Domain Dedication**.
 Read the [LICENSE](LICENSE).
 
 [![PyPI](https://img.shields.io/pypi/v/globalwarmingpotentials.svg?style=for-the-badge)](https://pypi.org/project/globalwarmingpotentials/)
-[![Conda-Forge](https://img.shields.io/conda/v/conda-forge/globalwarmingpotentials?style=for-the-badge)(https://anaconda.org/conda-forge/globalwarmingpotentials)
+[![Conda-Forge](https://img.shields.io/conda/v/conda-forge/globalwarmingpotentials?style=for-the-badge)](https://anaconda.org/conda-forge/globalwarmingpotentials)
 [![npm](https://img.shields.io/npm/v/globalwarmingpotentials.svg?style=for-the-badge)](https://www.npmjs.com/package/globalwarmingpotentials)
 
 Global warming potentials of greenhouse gases.
