@@ -1,6 +1,6 @@
 // Global Warming potentials
 
-export SARGWP100 = {
+export const SARGWP100 = {
   "CH4":21.0,
   "N2O":310.0,
   "CFC11":3800.0,
@@ -91,7 +91,7 @@ export SARGWP100 = {
   "Halon1201":null
 }
 
-export AR4GWP100 = {
+export const AR4GWP100 = {
   "CH4":25.0,
   "N2O":298.0,
   "CFC11":4750.0,
@@ -182,7 +182,7 @@ export AR4GWP100 = {
   "Halon1201":null
 }
 
-export AR5GWP100 = {
+export const AR5GWP100 = {
   "CH4":28.0,
   "N2O":265.0,
   "CFC11":4660.0,
@@ -273,7 +273,7 @@ export AR5GWP100 = {
   "Halon1201":376.0
 }
 
-export AR5CCFGWP100 = {
+export const AR5CCFGWP100 = {
   "CH4":34,
   "N2O":298,
   "CFC11":5352,
@@ -364,7 +364,7 @@ export AR5CCFGWP100 = {
   "Halon1201":454
 }
 
-export AR6GWP100 = {
+export const AR6GWP100 = {
   "CH4":27.9,
   "N2O":273.0,
   "CFC11":6230.0,
@@ -455,7 +455,7 @@ export AR6GWP100 = {
   "Halon1201":380.0
 }
 
-export AR6GWP20 = {
+export const AR6GWP20 = {
   "CH4":81.2,
   "N2O":273.0,
   "CFC11":8320.0,
@@ -546,7 +546,7 @@ export AR6GWP20 = {
   "Halon1201":1340.0
 }
 
-export AR6GWP500 = {
+export const AR6GWP500 = {
   "CH4":7.95,
   "N2O":130.0,
   "CFC11":2090.0,
@@ -637,7 +637,7 @@ export AR6GWP500 = {
   "Halon1201":108.0
 }
 
-export AR6GTP100 = {
+export const AR6GTP100 = {
   "CH4":5.38,
   "N2O":233.0,
   "CFC11":3540.0,
