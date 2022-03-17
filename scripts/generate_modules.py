@@ -63,7 +63,7 @@ js_out = """// Global Warming potentials
 """
 
 for column in df.columns:
-    js_out += f"exports.{column} = {df[column].to_json(indent=2)}\n\n"
+    js_out += f"export {column} = {df[column].to_json(indent=2)}\n\n"
 
 
 with open(str(root / "index.js"), "w") as f:
