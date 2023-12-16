@@ -20,12 +20,10 @@ def as_frame():
             "potentials as a Data Frame."
         ) from None
 
-    import importlib.resources as pkg_resources
+    from importlib.resources import files
 
     return pd.read_csv(
-        pkg_resources.open_text(
-            "globalwarmingpotentials", "globalwarmingpotentials.csv"
-        ),
+        files("globalwarmingpotentials").joinpath("globalwarmingpotentials.csv").open('r', encoding="utf-8"),
         index_col=0,
         comment="#",
     )
