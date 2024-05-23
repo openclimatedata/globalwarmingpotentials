@@ -1,12 +1,12 @@
-# Global warming potentials of greenhouse gases.,,,,,,
-# Sources:,,,,,,
-#   - SARGWP100: https://ghgprotocol.org/calculation-tools (specifically https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf),,,,,,
-#   - AR4GWP100: https://ghgprotocol.org/calculation-tools (specifically https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf),,,,,,
-#   - AR5GWP100: https://ghgprotocol.org/calculation-tools (specifically https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf),,,,,,
-#   - AR5CCFGWP100: AR5CCFGWP100 are AR5 100 year GWPs with climate carbon cycle feedbacks (https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf, Table 8.SM.16 and https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf, Table 8.7 (page 714).),,,,
-#   - AR6GWP100, AR6GWP20, AR6GWP500, AR6GTP100: https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf (specifically Supplementary Table 7.SM.7),,,,,,
-#     Read from https://github.com/chrisroadmap/ar6
-# Repository: https://github.com/openclimatedata/globalwarmingpotentials,,,,,,
+# Global warming potentials of greenhouse gases.,,,,,,,,
+# Sources:,,,,,,,,
+#   - SARGWP100: https://ghgprotocol.org/calculation-tools (specifically https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf),,,,,,,,
+#   - AR4GWP100: https://ghgprotocol.org/calculation-tools (specifically https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf),,,,,,,,
+#   - AR5GWP100: https://ghgprotocol.org/calculation-tools (specifically https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf),,,,,,,,
+#   - AR5CCFGWP100: AR5CCFGWP100 are AR5 100 year GWPs with climate carbon cycle feedbacks (https://www.ipcc.ch/site/assets/uploads/2018/07/WGI_AR5.Chap_.8_SM.pdf, Table 8.SM.16 and https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_Chapter08_FINAL.pdf, Table 8.7 (page 714).),,,,,,
+#   - AR6GWP100, AR6GWP20, AR6GWP500, AR6GTP100: https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf (specifically Supplementary Table 7.SM.7),,,,,
+#     Read from https://github.com/chrisroadmap/ar6,,,,,,,,
+# Repository: https://github.com/openclimatedata/globalwarmingpotentials,,,,,,,,
 Species,SARGWP100,AR4GWP100,AR5GWP100,AR5CCFGWP100,AR6GWP100,AR6GWP20,AR6GWP500,AR6GTP100
 CH4,21,25,28,34,27.9,81.2,7.95,5.38
 N2O,310,298,265,298,273,273,130,233
