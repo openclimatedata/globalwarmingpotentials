@@ -15,6 +15,8 @@ Global warming potentials of greenhouse gases.
 
 - Second Assessment Report (SAR) - **SARGWP100**
   [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
+- Third Assessment Report (TAR) - **TARGWP100**
+  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/08/TAR_syrfull_en.pdf), page 189
 - Fourth Assessment Report (AR4) - **AR4GWP100**
   [Data source](https://www.ghgprotocol.org/sites/default/files/ghgp/Global-Warming-Potential-Values%20%28Feb%2016%202016%29_1.pdf)
 - Fifth Assessment Report (AR5) - **AR5GWP100**
@@ -25,12 +27,16 @@ Global warming potentials of greenhouse gases.
 
 ### 20-year-GWP from IPCC reports
 
+- Third Assessment Report (TAR) - **TARGWP20**
+  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/08/TAR_syrfull_en.pdf), page 189
 - Sixth Assessment Report (AR6) - **AR6GWP20**
   [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
   [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
 
 ### 500-year-GWP from IPCC reports
 
+- Third Assessment Report (TAR) - **TARGWP500**
+  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/08/TAR_syrfull_en.pdf), page 189
 - Sixth Assessment Report (AR6) - **AR6GWP500**
   [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
   [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
