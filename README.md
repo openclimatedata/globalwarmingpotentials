@@ -28,7 +28,7 @@ Global warming potentials of greenhouse gases.
 ### 20-year-GWP from IPCC reports
 
 - Third Assessment Report (TAR) - **TARGWP20**
-  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/08/TAR_syrfull_en.pdf), page 189
+  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/03/WGI_TAR_full_report.pdf), page 388 Table 6.7
 - Sixth Assessment Report (AR6) - **AR6GWP20**
   [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
   [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
@@ -36,7 +36,7 @@ Global warming potentials of greenhouse gases.
 ### 500-year-GWP from IPCC reports
 
 - Third Assessment Report (TAR) - **TARGWP500**
-  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/08/TAR_syrfull_en.pdf), page 189
+  [Data source](https://www.ipcc.ch/site/assets/uploads/2018/03/WGI_TAR_full_report.pdf), page 388 Table 6.7
 - Sixth Assessment Report (AR6) - **AR6GWP500**
   [Data Source](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_07_Supplementary_Material.pdf)
   [CSV file](https://github.com/chrisroadmap/ar6/blob/main/data_output/7sm/metrics_supplement_cleaned.csv)
