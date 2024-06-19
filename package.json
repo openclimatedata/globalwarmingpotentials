@@ -2,11 +2,11 @@
   "name": "globalwarmingpotentials",
   "version": "0.10.1",
   "description": "Global warming potentials of greenhouse gases from various IPCC reports",
+  "scripts": {
+    "build": "tsc"
+  },
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/openclimatedata/globalwarmingpotentials.git"
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/openclimatedata/globalwarmingpotentials/issues"
   },
-  "homepage": "https://github.com/openclimatedata/globalwarmingpotentials#readme"
+  "homepage": "https://github.com/openclimatedata/globalwarmingpotentials#readme",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
 }
