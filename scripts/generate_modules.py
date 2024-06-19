@@ -58,13 +58,13 @@ py_out += "}\n"
 with open(str(root / "src/globalwarmingpotentials/__init__.py"), "w") as f:
     f.write(FormatCode(py_out)[0])
 
-js_out = """// Global Warming potentials
+ts_out = """// Global Warming potentials
 
 """
 
 for column in df.columns:
-    js_out += f"export const {column} = {df[column].to_json(indent=2)}\n\n"
+    ts_out += f"export const {column} = {df[column].dropna().to_dict()}\n\n"
 
 
-with open(str(root / "index.js"), "w") as f:
-    f.write(js_out)
+with open(str(root / "index.ts"), "w") as f:
+    f.write(ts_out)

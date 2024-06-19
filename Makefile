@@ -1,12 +1,13 @@
-all: src/globalwarmingpotentials/__init__.py index.js index.d.ts
+all: src/globalwarmingpotentials/__init__.py index.js
 
-src/globalwarmingpotentials/__init__.py index.js: scripts/generate_modules.py globalwarmingpotentials.csv venv
+src/globalwarmingpotentials/__init__.py index.ts: scripts/generate_modules.py globalwarmingpotentials.csv venv
 	@./venv/bin/python $<
 	@./venv/bin/black src/globalwarmingpotentials/*.py
 
-index.d.ts: index.js package.json
+index.js: index.ts package.json
 	@npm install
 	@npm run build
+	@npm run format
 
 venv: scripts/requirements.txt
 	[ -d ./venv ] || python3 -m venv venv
@@ -15,7 +16,7 @@ venv: scripts/requirements.txt
 	touch venv
 
 clean-generated-files:
-	rm -rf index.js index.d.ts py/globalwarmingpotentials/__init__.py
+	rm -rf index.js index.ts py/globalwarmingpotentials/__init__.py
 
 clean-venv:
 	rm -rf venv

@@ -3,7 +3,8 @@
   "version": "0.10.2",
   "description": "Global warming potentials of greenhouse gases from various IPCC reports",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier --write index.js index.ts"
   },
   "main": "index.js",
   "type": "module",
@@ -25,5 +26,8 @@
   "homepage": "https://github.com/openclimatedata/globalwarmingpotentials#readme",
   "dependencies": {
     "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "prettier": "3.3.2"
   }
 }

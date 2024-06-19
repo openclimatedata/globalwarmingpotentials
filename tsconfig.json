@@ -1,8 +1,8 @@
 {
-  "include": ["index.js"],
   "compilerOptions": {
-    "allowJs": true,
+    "module": "commonjs",
+    "target": "es2019",
     "declaration": true,
-    "emitDeclarationOnly": true
-  }
+  },
+  "include": ["index.ts"]
 }

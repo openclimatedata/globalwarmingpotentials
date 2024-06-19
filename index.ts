@@ -1,19 +1,6 @@
-"use strict";
 // Global Warming potentials
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.AR6GTP100 =
-  exports.AR6GWP500 =
-  exports.TARGWP500 =
-  exports.AR6GWP20 =
-  exports.TARGWP20 =
-  exports.AR6GWP100 =
-  exports.AR5CCFGWP100 =
-  exports.AR5GWP100 =
-  exports.AR4GWP100 =
-  exports.TARGWP100 =
-  exports.SARGWP100 =
-    void 0;
-exports.SARGWP100 = {
+
+export const SARGWP100 = {
   CH4: 21.0,
   N2O: 310.0,
   CFC11: 3800.0,
@@ -51,7 +38,8 @@ exports.SARGWP100 = {
   CHCl3: 4.0,
   CH2Cl2: 9.0,
 };
-exports.TARGWP100 = {
+
+export const TARGWP100 = {
   CH4: 23.0,
   N2O: 296.0,
   CFC11: 4600.0,
@@ -143,7 +131,8 @@ exports.TARGWP100 = {
   CF3I: 1.0,
   "-(CF2)4CH(OH)-": 70.0,
 };
-exports.AR4GWP100 = {
+
+export const AR4GWP100 = {
   CH4: 25.0,
   N2O: 298.0,
   CFC11: 4750.0,
@@ -203,7 +192,8 @@ exports.AR4GWP100 = {
   CH2Cl2: 8.7,
   CH3Cl: 13.0,
 };
-exports.AR5GWP100 = {
+
+export const AR5GWP100 = {
   CH4: 28.0,
   N2O: 265.0,
   CFC11: 4660.0,
@@ -291,7 +281,8 @@ exports.AR5GWP100 = {
   CH3Cl: 12.0,
   Halon1201: 376.0,
 };
-exports.AR5CCFGWP100 = {
+
+export const AR5CCFGWP100 = {
   CH4: 34.0,
   N2O: 298.0,
   CFC11: 5352.0,
@@ -381,7 +372,8 @@ exports.AR5CCFGWP100 = {
   CH3Cl: 15.0,
   Halon1201: 454.0,
 };
-exports.AR6GWP100 = {
+
+export const AR6GWP100 = {
   CH4: 27.9,
   N2O: 273.0,
   CFC11: 6230.0,
@@ -469,7 +461,8 @@ exports.AR6GWP100 = {
   CH3Cl: 5.54,
   Halon1201: 380.0,
 };
-exports.TARGWP20 = {
+
+export const TARGWP20 = {
   CH4: 62.0,
   N2O: 275.0,
   CFC11: 6300.0,
@@ -561,7 +554,8 @@ exports.TARGWP20 = {
   CF3I: 1.0,
   "-(CF2)4CH(OH)-": 240.0,
 };
-exports.AR6GWP20 = {
+
+export const AR6GWP20 = {
   CH4: 81.2,
   N2O: 273.0,
   CFC11: 8320.0,
@@ -649,7 +643,8 @@ exports.AR6GWP20 = {
   CH3Cl: 19.9,
   Halon1201: 1340.0,
 };
-exports.TARGWP500 = {
+
+export const TARGWP500 = {
   CH4: 7.0,
   N2O: 156.0,
   CFC11: 1600.0,
@@ -738,7 +733,8 @@ exports.TARGWP500 = {
   HG01: 450.0,
   "-(CF2)4CH(OH)-": 22.0,
 };
-exports.AR6GWP500 = {
+
+export const AR6GWP500 = {
   CH4: 7.95,
   N2O: 130.0,
   CFC11: 2090.0,
@@ -826,7 +822,8 @@ exports.AR6GWP500 = {
   CH3Cl: 1.58,
   Halon1201: 108.0,
 };
-exports.AR6GTP100 = {
+
+export const AR6GTP100 = {
   CH4: 5.38,
   N2O: 233.0,
   CFC11: 3540.0,
