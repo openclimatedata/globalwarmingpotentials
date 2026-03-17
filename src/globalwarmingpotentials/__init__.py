@@ -4,10 +4,9 @@ globalwarmingpotentials
 
 """
 
-from ._version import get_versions
+from importlib.metadata import version
 
-__version__ = get_versions()["version"]
-del get_versions
+__version__ = version("globalwarmingpotentials")
 
 
 def as_frame():
@@ -16,8 +15,7 @@ def as_frame():
         import pandas as pd
     except ImportError:
         raise ImportError(
-            "pandas is required for reading global warming "
-            "potentials as a Data Frame."
+            "pandas is required for reading global warming potentials as a DataFrame."
         ) from None
 
     import importlib.resources as pkg_resources

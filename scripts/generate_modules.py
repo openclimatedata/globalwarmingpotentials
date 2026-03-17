@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "pandas>=3.0.1",
+#     "yapf>=0.43.0",
+# ]
+# ///
 """
 Generate Python and JavaScript modules with GWP by species as
 listed in Data Package CSV file.
@@ -20,10 +27,9 @@ globalwarmingpotentials
 
 """
 
-from ._version import get_versions
+from importlib.metadata import version
 
-__version__ = get_versions()["version"]
-del get_versions
+__version__ = version("globalwarmingpotentials")
 
 
 def as_frame():
@@ -33,7 +39,7 @@ def as_frame():
     except ImportError:
         raise ImportError(
             "pandas is required for reading global warming "
-            "potentials as a Data Frame."
+            "potentials as a DataFrame."
         ) from None
 
     import importlib.resources as pkg_resources
