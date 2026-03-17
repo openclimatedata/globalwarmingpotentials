@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/openclimatedata/globalwarmingpotentials#readme",
   "dependencies": {
-    "typescript": "^5.4.5"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "prettier": "3.3.2"
+    "prettier": "3.8.1"
   }
 }
