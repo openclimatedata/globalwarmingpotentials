@@ -101,4 +101,4 @@ and pushing with
 git push origin main --tags
 ```
 
-a new releases on PyPI and NPM will be published.
+will create new releases on PyPI and NPM.
