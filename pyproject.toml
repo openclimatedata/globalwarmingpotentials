@@ -1,6 +1,6 @@
 [project]
 name = "globalwarmingpotentials"
-version = "0.12.3"
+version = "0.12.4"
 description = "Global warming potentials of greenhouse gases from various IPCC reports"
 readme = "README.md"
 requires-python = ">=3.10"
