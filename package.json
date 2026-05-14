@@ -24,10 +24,8 @@
     "url": "https://github.com/openclimatedata/globalwarmingpotentials/issues"
   },
   "homepage": "https://github.com/openclimatedata/globalwarmingpotentials#readme",
-  "dependencies": {
-    "typescript": "^5.9.3"
-  },
   "devDependencies": {
-    "prettier": "3.8.1"
+    "prettier": "3.8.1",
+    "typescript": "^6.0.3"
   }
 }
