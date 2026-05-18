@@ -10,8 +10,6 @@ Generate Python and JavaScript modules with GWP by species as
 listed in Data Package CSV file.
 """
 
-import json
-import numpy as np
 import pandas as pd
 
 from pathlib import Path
